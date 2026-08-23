@@ -1,4 +1,7 @@
-# Python Toolchain Comparison: Poetry vs. Anaconda vs. uv
+
+# Poetry vs. Anaconda vs. uv
+
+<br />
 
 | Features | **Poetry** | **Anaconda (Conda)** | **uv** |
 | :--- | :--- | :--- | :--- |
