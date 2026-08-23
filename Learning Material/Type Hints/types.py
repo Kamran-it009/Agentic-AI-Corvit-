@@ -28,15 +28,12 @@ user_scores: dict[str, int] = {"Alice": 95, "Bob": 88}
 
 
 
-# 7. FUNCTIONS (Callable & Advanced Types)
+# 7. FUNCTIONS
 # ==========================================
-
-# Standard Function Hinting
 def add_numbers(x: int, y: int) -> int:
     return x + y
 
 
-# ==========================================
 # 6. CLASSES
 # ==========================================
 class User:
@@ -51,8 +48,6 @@ class User:
 current_user: User = User("Kamran", 1001)
 
 # ==========================================
-
-
 from typing import Optional, Union
 # Optional Type (Value can be int or None)
 def find_user(user_id: int) -> Optional[User]:
