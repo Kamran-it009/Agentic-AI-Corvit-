@@ -1,5 +1,5 @@
 
-# Poetry vs. Anaconda vs. uv
+<h1> Virtual Environment Management </h1>
 
 <br />
 
