@@ -44,6 +44,13 @@ A step-by-step flow for managing Python projects, environments, and dependencies
 * **`uv add package_name`**  
   Installs a new package (e.g., `requests`, `fastapi`), records it under `[project.dependencies]` in `pyproject.toml`, and updates the lockfile.
 
+* **`uv remove package_name`**  
+  Removes a package from the project, updates `pyproject.toml`, and refreshes the lockfile.
+
+* **`uv pip list`**  
+  Lists all installed packages in the current virtual environment.
+
+
 * **`uv lock`**  
   Generates or updates the `uv.lock` file to lock exact versions of all dependencies without altering your active `.venv`.
 
