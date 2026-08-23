@@ -6,7 +6,7 @@ A step-by-step flow for managing Python projects, environments, and dependencies
 
 ---
 
-### 🚀 1. Project Initialization
+### 1. Project Initialization
 
 * **`uv init project_name`**  
   Creates a new packaged Python project directory with a standard layout, including `pyproject.toml` and a `src/` folder.
@@ -19,14 +19,14 @@ A step-by-step flow for managing Python projects, environments, and dependencies
 
 ---
 
-### 🐍 2. Python Version Management
+### 2. Python Version Management
 
 * **`uv python pin _version`**  
   Pins a specific Python version to the current project by creating or updating the `.python-version` file.
 
 ---
 
-### 📦 3. Virtual Environment Control
+### 3. Virtual Environment Control
 
 * **`uv venv`**  
   Creates a default `.venv` virtual environment in the root directory using your default installed Python version.
@@ -59,7 +59,7 @@ A step-by-step flow for managing Python projects, environments, and dependencies
 
 ---
 
-### ▶️ 5. Code Execution
+### 5. Code Execution
 
 * **`uv run main.py`**  
   Executes a Python script inside the project environment, automatically ensuring all locked dependencies are available without manual environment activation.
