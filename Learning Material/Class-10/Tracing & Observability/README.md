@@ -1,4 +1,4 @@
-# Introduction to LangSmith
+# Tracing using LangSmith
 
 ### Step-1: 
 
