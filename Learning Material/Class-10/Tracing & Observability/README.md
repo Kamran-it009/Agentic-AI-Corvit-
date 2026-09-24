@@ -8,6 +8,12 @@ Set the LangSmith API Key using the following Link:
 [https://smith.langchain.com/](https://smith.langchain.com/o/8f3b2123-029e-55f9-82ce-40965f0bd52a/settings/apikeys)
 
 ### Step-2: 
+Install the LangSmith library. You may use the guide link:  [LangSmith Guide](https://docs.langchain.com/langsmith/trace-with-google-gemini )
+```
+uv add langsmith google-genai
+```
+
+### Step-2: 
 Set the following environment variables of your project:
 
 ```
