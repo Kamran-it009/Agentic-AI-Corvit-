@@ -13,7 +13,7 @@ Install the LangSmith library. You may use the guide link:  [LangSmith Guide](ht
 uv add langsmith google-genai
 ```
 
-### Step-2: 
+### Step-3: 
 Set the following environment variables of your project:
 
 ```
@@ -24,7 +24,7 @@ Set the following environment variables of your project:
 5. LANGSMITH_PROJECT='your_project_name'
 ```
 
-### Step-3:
+### Step-4:
 Run the LangChain Agent
 ```
 from langchain.agents import create_agent
